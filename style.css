@@ -1,0 +1,27 @@
+@import "./styles/pagina-01.css";
+@import "./styles/pagina-02.css";
+@import "./styles/pagina-03.css";
+@import "./styles/pagina-04.css";
+@import "./styles/pagina-05.css";
+@import "./styles/pagina-06.css";
+@import "./styles/pagina-07.css";
+@import "./styles/pagina-08.css";
+@import "./styles/pagina-09.css";
+@import "./styles/pagina-10.css";
+
+:root {
+    --fonte-principal : "Poppins";
+    --fonte-titulo: "Permanent Marker";
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: var(--fonte-principal);
+    box-sizing: border-box;
+    background: #202020;
+}
+
+html {
+    scroll-behavior: smooth;
+}

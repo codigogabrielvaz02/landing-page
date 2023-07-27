@@ -1,0 +1,163 @@
+.accordion-item-header {
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    background: transparent;
+    font-family: sans-serif;
+    color: azure;
+}
+
+.accordion-item-header::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.accordion-item-header.active::after {    
+    content: "\2212";
+}
+
+.accordion-item-header.active + .accordion-item-body {
+    max-height: 1000px;
+}
+
+.accordion-item-body {
+    background: #202020;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;    
+}
+
+.accordion-item-body-content {
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right,transparent, azure, transparent) 1;
+    background: transparent;
+    font-family: sans-serif;
+    color: rgb(167, 167, 167);
+}
+
+.accordion {
+    background:transparent;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.accordion-item {
+    background: #202020;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25) ;
+}
+
+.pagina-09 {
+    width: 100%;
+    background:transparent;
+    text-align: center;
+}
+
+.pagina-09-titulo {
+    background: transparent;
+    font-size: 14px;
+    font-weight: 300;
+    color:azure;
+    margin-top: 1em;
+}
+
+.pagina-09-txt h2 {
+    font-size: 46px;
+    color: azure;
+    margin-top: 1em;
+}
+
+.pagina-09-txt p {
+    font-size: 14px;
+    color: azure;
+    margin: 1em 0;
+}
+
+.perguntas-frequentes-titulo {
+    background: transparent;
+    color: azure;
+    font-size: 20px;
+    padding: 1em;
+}
+
+.container {
+    background:#474747;
+    padding: 1em 0;
+}
+
+.pagina-09-container-txt {
+    background: transparent;
+}
+
+.pagina-09-container-txt h2 {
+    background: transparent;
+    text-align: center;
+    color:azure;
+    font-size: 18px;
+    font-weight: 300;
+    padding: .5em 1em;
+    margin-top: 2em;
+}
+
+.pagina-09-container-button {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 .5em;  
+}
+
+.pagina-09-container-button a {
+    background: transparent;
+    text-decoration: none;
+    margin: .5em;
+}
+
+.pagina-09-container-button img {
+    background: transparent;
+    width: 2em;
+    padding-right: .5em;
+}
+
+.pagina-09-container-button button {
+    display: flex;
+    font-size: 14px;
+    font-weight: 700;
+    color: azure;
+    border: none;
+    background: #448232;
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.pagina-09-compra-segura {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagina-09-compra-segura-img {    
+    background: transparent;
+    width: 1em;
+    margin: 0 .5em;
+}
+
+.pagina-09-compra-segura-txt {    
+    background: transparent;
+    font-size: 12px;
+    color: lightgray;
+}

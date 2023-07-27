@@ -1,0 +1,110 @@
+.pagina-10 {
+    background: transparent;
+    text-align: center;
+    width: 100vw;
+}
+
+.footer {
+    background: black;
+}
+
+.footer-lista {
+    background: transparent;
+    display: flex;    
+    text-decoration: none;
+    flex-direction: column;
+}
+
+.footer-lista-item {
+    background: transparent;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+.safe-img {
+    background: transparent;
+    margin-top: 1em;
+    width: 70px;
+}
+
+.lista-link-titulo {
+    background: transparent;
+    color: azure;
+    margin: .5em 0;
+}
+
+.lista-link {
+    background: transparent;
+    list-style: none;
+}
+
+.lista-link-item {
+    background: transparent;
+    margin: .2em 0;
+}
+
+.lista-link-item a {
+    background: transparent;  
+    color: rgb(163, 163, 163);
+}
+
+.formas-de-pagamentos-titulo {
+    background: transparent;
+    color: azure;
+    margin: .5em 0;
+}
+
+.formas-de-pagamentos {
+    background: transparent;
+}
+
+.formas-de-pagamentos-img {
+    border-radius: 8px;
+    width: 4em;
+    margin: .3em;
+}
+
+.formas-de-envio-titulo {
+    background: transparent;
+    color: azure;
+    margin: .5em 0;
+}
+
+.formas-de-envio {
+    background: transparent;
+}
+
+.formas-de-envio-img {    
+    border-radius: 8px;
+    width: 5.6em;
+    margin: .5em;
+}
+
+.midias-sociais {
+    background: transparent;
+    margin: 1em;
+}
+
+.midias-sociais-img {
+    background: transparent;
+    width: 4em;
+}
+
+hr {
+    margin: 1em;
+}
+
+.direitos-reservados {
+    background: transparent;
+    color:azure;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 1em;
+}
+
+.direitos-reservados strong {
+    background: transparent;
+    font-weight: 300;
+    font-size: 20px;
+    margin-right: .5em;
+}

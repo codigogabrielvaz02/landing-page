@@ -1,0 +1,144 @@
+.pagina-01 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.pagina-01-container-01 {
+    width: 100%;
+}
+
+.pagina-01-container-titulo {
+    text-align: center;
+}
+
+.pagina-01-container-titulo h1 strong {
+    font-family: var(--fonte-principal);
+    color:azure;
+    display: flex;
+    font-size: 46px;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+.pagina-01-container-titulo h1 {
+    color: rgb(105, 105, 105);
+    font-family: var(--fonte-titulo);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: .5em;
+    margin: 1em;
+}
+
+.pagina-01-container-titulo h2 {
+    display: flex;
+    flex-wrap: wrap;
+    color: azure;
+    margin: 0 1em;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.pagina-01-container-lista {
+    padding: 1em 0;
+    margin: 1em;
+}
+
+.pagina-01-container-lista h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: .5em;
+    color: azure;
+}
+
+.pagina-01-lista {
+    display: flex;
+    flex-direction: column;
+}
+
+.pagina-01-lista-item{
+    display: flex;
+    align-items: center;
+    margin: 0 1em;
+}
+
+.pagina-01-lista-item-img{
+    width: 1.5em;
+    margin-right: .2em;
+}
+
+.pagina-01-lista-item-txt {
+    font-size: 14px;
+    color: azure;
+}
+
+.pagina-01-container-compra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2em;
+}
+
+.pagina-01-container-compra-txt {
+    background: transparent;
+    color: azure;
+    width: 50%;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.pagina-01-container-button {
+    background: transparent;
+}
+
+.pagina-01-button {
+    background: transparent;
+    background: #448232;
+    padding: 1em;
+    border-radius: 20px;
+    border: none;
+}
+
+.pagina-01-logo-button {
+    display: flex;
+    background: transparent;
+    width: 2em;
+    text-decoration: none;
+}
+
+.pagina-01-compra-segura {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagina-01-compra-segura-img {
+    width: 1em;
+    margin: 1em .5em;
+}
+
+.pagina-01-compra-segura-txt {
+    font-size: 12px;
+    color: lightgray;
+}
+
+.pagina-01-container-02 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.pagina-01-container-img {
+    padding: 2em;
+    background: transparent;
+}
+
+.pagina-01-container-img img {
+    width: 60%;
+    padding: .2em;
+    border-radius: 8px;
+    background: transparent;
+}

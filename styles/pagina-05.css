@@ -1,0 +1,65 @@
+.pagina-05 {
+    text-align: center;
+}
+
+.pagina-05 li img {
+    background: transparent;
+    padding: 1em;
+}
+
+.pagina-05 li h2 {
+    margin: 0 1em;
+    font-size: 26px;
+    color:azure;
+}
+
+.pagina-05 li p {
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0 2em;
+    color: azure;
+}
+
+.pagina-05 ul {
+    margin: 2em 0;    
+}
+
+.pagina-05 li {
+    margin: 2em 0;
+}
+
+.pagina-05-container-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagina-05-container-button h2 {
+    font-size: 36px;
+    margin-top: 2em;
+    padding: 0 1em;
+    color: azure;
+}
+
+.pagina-05-container-button a {
+    text-decoration: none;
+}
+
+.pagina-05-container-button img {
+    background: transparent;
+    width: 1.5em;
+    margin-right: .5em;
+}
+
+.pagina-05-container-button button {
+    display: flex;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    background: #448232;
+    color: azure;
+    padding: 1em;    
+    margin: 1em 0;
+    border-radius: 8px;
+}

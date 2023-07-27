@@ -1,0 +1,63 @@
+.pagina-03 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pagina-03-container-01 {
+    margin: 2em;
+    padding: 2em;
+}
+
+.pagina-03-img {
+    width: 200px;
+    height: 200px;
+    margin: 1em;
+    border-radius: 50%;
+    background: rgb(15,15,15);
+    background: linear-gradient(90deg, rgb(163, 109, 9) 0%, rgb(216, 202, 7) 100%);
+}
+
+.pagina-03-container-01 a {
+    margin: 2em 1.5em;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.pagina-03-container-01 button img {
+    background: transparent;
+    width: 1.5em;
+    margin-right: .5em;
+}
+
+.pagina-03-container-01 a button {
+    display: flex;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    background: #448232;
+    color: azure;
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.pagina-03-container-02 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.pagina-03-container-img {
+    padding: 2em;
+    background: transparent
+}
+
+.pagina-03-container-img img {
+    width: 60%;
+    padding: .2em;
+    border-radius: 8px;
+    background: transparent;
+}

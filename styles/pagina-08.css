@@ -1,0 +1,114 @@
+.pagina-08 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pagina-08-container-titulo h2 {
+    text-align: center;
+    color:azure;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0 1em;
+    margin-top: 2em;
+}
+
+.card {
+    width: 70%;
+    margin: 3.4em;
+    text-align: center;
+    background: #474747;
+}
+
+.card-img {
+    background: rgb(104, 104, 104);
+    position: relative;
+    bottom: 20px;
+    padding: 1em;
+    border-radius: 50%;
+}
+
+.card-titulo {
+    background: transparent;
+    font-size: 36px;
+    color: azure;
+}
+
+.card-txt {
+    background: transparent;
+    font-size: 14px;
+    color: rgb(180, 180, 180);
+}
+
+.frete-gratis {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+.frete-gratis-img {
+    background: transparent;
+    width: 2.5em;
+    height: 2em;
+    margin-right: 1em;
+}
+
+.frete-gratis-txt {
+    background: transparent;
+    font-size: 23px;
+    font-weight: 500;
+    color: azure;
+}
+
+.preco-parcelado {
+    background: transparent;
+}
+
+.preco-parcelado p {
+    background: transparent;
+    font-size: 18px;
+    color:azure;
+}
+
+.preco-parcelado strong {
+    background: transparent;
+    font-size: 36px;
+    color: azure;
+}
+
+.preco-a-vista {
+    background: transparent;
+    color: rgb(180, 180, 180);
+}
+
+.preco-a-vista p {
+    background: transparent;
+}
+
+.card-link {
+    background: transparent;
+    position: relative;
+    top: 26px;
+}
+
+.card-button {
+    background: #448232;
+    border: none;
+    padding: .5em;
+    border-radius: 2em;
+    color: azure;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+
+.pagina-08-container-txt h2 {
+    text-align: center;
+    color:azure;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0 1em;
+}
+

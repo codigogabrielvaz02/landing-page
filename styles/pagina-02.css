@@ -1,0 +1,47 @@
+
+.pagina-02 {
+    text-align: center;
+}
+
+.pagina-02-titulo {
+    margin: 2em 0;
+}
+
+.pagina-02-titulo h2 {
+    margin-top: 1em;
+    font-size: 36px;
+    color: azure;
+}
+
+.pagina-02-titulo h3 {
+    font-size: 12px;
+    font-weight: 300;
+    color: azure;
+    padding: 0 1em;
+}
+
+.pagina-02 li img {
+    background: transparent;
+    padding: 1em;
+}
+
+.pagina-02 li h2 {
+    margin: 0 1em;
+    font-size: 26px;
+    color:azure;
+}
+
+.pagina-02 li p {
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0 2em;
+    color: azure;
+}
+
+.pagina-02 ul {
+    margin: 2em 0;    
+}
+
+.pagina-02 li {
+    margin: 2em 0;
+}

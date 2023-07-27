@@ -1,0 +1,58 @@
+
+<h2>Selecione um Ebook:</h2>
+
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-card">
+                            <img src="./img/icones/play.png" alt=""><p>Marketing Conversacional</p>
+                            <a class="swipper-slide-container-button"><button class="swipper-slide-button">SAIBA MAIS</button></a>
+                        </div>
+                    </div>            
+
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-card">
+                            <img src="./img/icones/play.png" alt=""><p>Marketing Conversacional</p>
+                            <a class="swipper-slide-container-button"><button class="swipper-slide-button">SAIBA MAIS</button></a>
+                        </div>
+                    </div>            
+
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-card">
+                            <img src="./img/icones/play.png" alt=""><p>Marketing Conversacional</p>
+                            <a class="swipper-slide-container-button"><button class="swipper-slide-button">SAIBA MAIS</button></a>
+                        </div>
+                    </div>              
+
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-card">
+                            <img src="./img/icones/play.png" alt=""><p>Marketing Conversacional</p>
+                            <a class="swipper-slide-container-button"><button class="swipper-slide-button">SAIBA MAIS</button></a>
+                        </div>
+                    </div>             
+
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-card">
+                            <img src="./img/icones/play.png" alt=""><p>Marketing Conversacional</p>
+                            <a class="swipper-slide-container-button"><button class="swipper-slide-button">SAIBA MAIS</button></a>
+                        </div>
+                    </div>              
+
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-card">
+                            <img src="./img/icones/play.png" alt=""><p>Marketing Conversacional</p>
+                            <a class="swipper-slide-container-button"><button class="swipper-slide-button">SAIBA MAIS</button></a>
+                        </div>
+                    </div>                 
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-card">
+                            <img src="./img/icones/play.png" alt=""><p>Marketing Conversacional</p>
+                            <a class="swipper-slide-container-button"><button class="swipper-slide-button">SAIBA MAIS</button></a>
+                        </div>
+                    </div>
+                    
+                        
+                </div>
+            </div>

@@ -1,0 +1,88 @@
+.pagina-07 {
+    width: 100%;
+    text-align: center;
+}
+
+.pagina-07-container-txt {
+    padding: 1em;
+    color: azure;
+}
+
+.pagina-07-container-img {
+    display: flex;
+    justify-content: center;
+}
+
+.pagina-07-container-img li {
+    list-style: none;
+}
+
+.pagina-07-container-img div {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    margin: 1em 0;
+    background: rgb(129, 129, 129);
+}
+
+.pagina-07-container-img p {
+    position: relative;
+    bottom: -146px;
+    background: #474747;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    color: azure;
+}
+
+.pagina-07-container-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 .5em;  
+}
+
+.pagina-07-container-button h2 {
+    font-size: 36px;
+    padding-top: 1em;
+    color: azure;
+}
+
+.pagina-07-container-button a {
+    text-decoration: none;
+    padding: .5em;
+}
+
+.pagina-07-container-button img {
+    background: transparent;
+    width: 2em;
+    padding-right: .5em;
+}
+
+.pagina-07-container-button button {
+    display: flex;
+    font-size: 14px;
+    font-weight: 700;
+    color: azure;
+    border: none;
+    background: #448232;
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.pagina-07-compra-segura {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagina-07-compra-segura-img {
+    width: 1em;
+    margin: 0 .5em;
+}
+
+.pagina-07-compra-segura-txt {
+    font-size: 12px;
+    color: lightgray;
+}
